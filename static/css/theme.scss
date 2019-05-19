@@ -70,17 +70,6 @@ a {
       &.home-link {
         text-align: center;
       }
-      &:not(.home-link):before {
-        @extend .glyphicon;
-        @extend .glyphicon-folder-close;
-        margin-right: 8px;
-      }
-    }
-
-    .open {
-      h3:before {
-        @extend .glyphicon-folder-open;
-      }
     }
 
     ul {
@@ -90,12 +79,6 @@ a {
         list-style: none;
         padding: 4px 30px 4px 40px;
         margin-right: -15px;
-        &:before {
-          @extend .glyphicon;
-          @extend .glyphicon-file;
-          margin-right: 8px;
-        }
-
         &:hover {
           background-color: $menu-hover-bg-color;
         }
