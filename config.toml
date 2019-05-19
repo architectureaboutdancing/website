@@ -1,13 +1,12 @@
 languageCode = "en-us"
-title = "Lucydot"
-baseURL = "https://lucydot.github.io/"
+title = "Richard Scott"
+baseURL = "https://architectureaboutdancing.github.io/"
 theme = "code-editor"
-googleAnalytics = "UA-125953365-1"
 
 [blackfriday]
     fractions = false
 
 [params]
-    author = "Lucy Whalley"
+    author = "Richard Scott"
     locale = "en-US"
     DateForm = "2.1.2006"
